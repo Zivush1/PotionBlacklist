@@ -1,0 +1,12 @@
+name: PotionBlacklist
+version: '${project.version}'
+main: me.zivush.potionblacklist.PotionBlacklist
+api-version: '1.19'
+commands:
+  potion:
+    description: Manage potion blacklist
+    usage: /potion blacklist <player>
+permissions:
+  potion.blacklist:
+    description: Allows managing the potion blacklist
+    default: op

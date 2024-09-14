@@ -1,0 +1,14 @@
+# PotionBlacklist Configuration
+
+# Blacklisted players (UUIDs)
+blacklist: []
+
+# Messages
+messages:
+  no-permission: "&cYou don't have permission to use this command."
+  usage: "&cUsage: /potion blacklist <player>"
+  player-not-found: "&cPlayer %player% not found."
+  removed-from-blacklist: "&aPlayer %player% has been removed from the potion blacklist."
+  added-to-blacklist: "&aPlayer %player% has been added to the potion blacklist."
+  potion-blocked: "&cYou are not allowed to use potions."
+
